@@ -1,0 +1,59 @@
+<project
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd"
+>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>phamsodiep.emacsbasedide.srcparser</groupId>
+    <artifactId>source-code-parser</artifactId>
+    <packaging>jar</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <name>source-code-parser</name>
+    <url>http://maven.apache.org</url>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>org.mongodb</groupId>
+            <artifactId>mongo-java-driver</artifactId>
+            <version>3.2.1</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.jdt</groupId>
+            <artifactId>org.eclipse.jdt.core</artifactId>
+            <version>3.15.0</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <manifestEntries>
+                            <Built-By>nobody</Built-By>
+                            <Class-Path>lib/org.eclipse.core.resources-3.13.300.jar lib/org.eclipse.equinox.preferences-3.7.300.jar lib/org.eclipse.core.contenttype-3.7.300.jar lib/org.eclipse.core.runtime-3.15.200.jar lib/org.eclipse.jdt.core-3.15.0.jar lib/org.eclipse.core.jobs-3.10.300.jar lib/org.eclipse.equinox.common-3.10.300.jar lib/org.eclipse.osgi-3.13.300.jar lib/mongo-java-driver-3.8.2.jar lib/mongo-java-driver-3.2.1.jar</Class-Path>
+                            <Main-Class>org.phamsodiep.emacsbasedide.srcparser.app.SourceCodeParser</Main-Class>
+                        </manifestEntries>
+                    </archive>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.3</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
+
+
