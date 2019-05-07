@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SourceCodeAnalysisServer" version="4">
+  <OBJECT>
+    <ID name="SourceCodeAnalysisServer" mc="Standard.Class" uid="60625c3b-200c-4f59-9a12-dbc731238be8"/>
+    <PID name="BA" mc="Standard.Package" uid="7d95f139-42de-4b33-b965-3a0b46f254d0"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[SourceCodeAnalysisServer]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

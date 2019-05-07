@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="BA" version="4">
+  <OBJECT>
+    <ID name="BA" mc="Standard.Package" uid="aafdc92b-ef37-4d85-aca7-81a71d7486c6"/>
+    <PID name="SourceCodeParser" mc="Standard.Package" uid="cbffbb79-c5b8-49f2-9c34-323b3cc6c5b8"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[BA]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="State Machine" mc="Standard.StateMachine" uid="4a5ed3d3-50a0-4de4-b3a9-8843203f3d27"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="SourceCodeParser" mc="Standard.Class" uid="212caefa-b306-48ff-8ea4-a1094d1b0781"/>
+        <COMPID name="Switch Workspace" mc="Standard.UseCase" uid="58cf1c9e-09ef-4b40-8ad1-1cbf1d970fd2"/>
+        <COMPID name="Parse project" mc="Standard.UseCase" uid="ccb8b924-81fe-4850-840c-b95a2cf20ed3"/>
+        <COMPID name="Parse buffer" mc="Standard.UseCase" uid="d7a02e4a-9b7f-46bd-94a7-4c4b96892138"/>
+        <COMPID name="ProjectConfiguration" mc="Standard.Class" uid="85c2c6d4-383f-466b-9e97-d8342302188f"/>
+        <COMPID name="SourceCode" mc="Standard.Class" uid="b35c826e-a390-4068-9bba-4e0d15bf2f4e"/>
+        <COMPID name="SimpleName" mc="Standard.Class" uid="83ab9f35-dd1b-41aa-9595-ce1214eebc9f"/>
+        <COMPID name="Get Workspace Information" mc="Standard.UseCase" uid="be0a1de1-a1cd-44b8-87b0-35dc954efc65"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Domain Model" mc="Standard.ClassDiagram" uid="3d4a59cb-6411-4690-9be9-984503e4fcf6"/>
+        <COMPID name="System Use Cases" mc="Standard.UseCaseDiagram" uid="624131c1-14fa-4dee-816d-00bfc65db832"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

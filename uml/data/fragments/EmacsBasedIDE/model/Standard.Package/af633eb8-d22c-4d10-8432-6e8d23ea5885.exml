@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SourceCodeAnalysisServer" version="4">
+  <OBJECT>
+    <ID name="SourceCodeAnalysisServer" mc="Standard.Package" uid="af633eb8-d22c-4d10-8432-6e8d23ea5885"/>
+    <PID name="emacsbasedide" mc="Standard.Package" uid="278b9aff-c3e9-4f30-990d-2a8edbb610df"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[SourceCodeAnalysisServer]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BA" mc="Standard.Package" uid="7d95f139-42de-4b33-b965-3a0b46f254d0"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

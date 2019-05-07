@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="EmacsConcept" version="4">
+  <OBJECT>
+    <ID name="EmacsConcept" mc="Standard.Package" uid="4fb29f32-49c4-4618-9508-df2472683ce0"/>
+    <PID name="BA" mc="Standard.Package" uid="582ddc54-a3be-47e3-b125-62681ac10137"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[EmacsConcept]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Buffer" mc="Standard.Class" uid="e74db580-303e-45b5-852f-e07bab446a4f"/>
+        <COMPID name="EndpointConfiguration" mc="Standard.Class" uid="df4300db-8e24-41c2-b73c-ddce6a542aa8"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="EmacsBasedIDE" version="4">
+  <OBJECT>
+    <ID name="EmacsBasedIDE" mc="Standard.Project" uid="13e930dc-5bc0-4407-afb4-28c06ff1b8a2"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[EmacsBasedIDE]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="emacsbasedide" mc="Standard.Package" uid="278b9aff-c3e9-4f30-990d-2a8edbb610df"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="EmacsBasedIDE" mc="Infrastructure.DiagramSet" uid="5e53543c-8dd2-42cb-b825-6ec2c4ba122c"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

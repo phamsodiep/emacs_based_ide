@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="BA" version="4">
+  <OBJECT>
+    <ID name="BA" mc="Standard.Package" uid="582ddc54-a3be-47e3-b125-62681ac10137"/>
+    <PID name="Common" mc="Standard.Package" uid="1fafbae9-194f-4182-8db5-ce144d31850f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[BA]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Emacs" mc="Standard.Actor" uid="64e1a5b5-d63e-4803-a2a7-767a0b806d9f"/>
+        <COMPID name="Source Code Database" mc="Standard.Actor" uid="56be033f-b9d6-4698-96e4-20f0d1558903"/>
+        <COMPID name="Workspace" mc="Standard.Class" uid="99480240-e87b-4bb1-a582-df0e73babe45"/>
+        <OBJECT>
+          <ID name="HTTPStatusCode" mc="Standard.Enumeration" uid="eb615843-e5a5-4cee-848d-4ebabbffac2b"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[HTTPStatusCode]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="Emacs" mc="Standard.Package" uid="4fb29f32-49c4-4618-9508-df2472683ce0"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
