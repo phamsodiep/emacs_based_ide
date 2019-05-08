@@ -56,12 +56,13 @@ public class SourceCodeBrowserController {
 
     String fileFullPath = target.getFile();
     int fileFullPathLen = fileFullPath.length();
-    String key = fileFullPath.substring(41, fileFullPathLen - 5);
     int startOfMavenPrefix = fileFullPath.indexOf("src/main/java/");
     if (startOfMavenPrefix < 0) {
       return new ResponseEntity<String>(HttpStatus.NOT_FOUND);
     }
-    String srcPathPrefix = fileFullPath.substring(0, startOfMavenPrefix + 14);
+    int srcRelativePathStartIdx = startOfMavenPrefix + 14;
+    String key = fileFullPath.substring(srcRelativePathStartIdx, fileFullPathLen - 5);
+    String srcPathPrefix = fileFullPath.substring(0, srcRelativePathStartIdx);
     Integer targetPos = target.getPosition();
 
     Query query = Query.query(
